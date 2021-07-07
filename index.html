@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=h1, initial-scale=h">
+    <title>Document</title>
+    <style>
+        h1{
+            background-color: rgba(255, 0, 0, 0.576);
+            
+        }
+        span{
+            background-color: rgba(255, 0, 0, 0.556);
+            height: 100px;
+            width: 200px;
+            /* display: inline-block; */
+            
+        }
+        div{
+            background-color: salmon;
+            height: 200px;
+            width: 400px;
+        }
+        a{
+            d
+            isplay: block;
+        }
+        h2{
+            background-color: rgba(217, 255, 0, 0.576);
+            
+        }
+        /* Child selectors
+        li:last-child{
+            color: rgb(255, 8, 0);
+        }
+        li:first-child{
+            color: chartreuse;
+        } */
+        /* even number coloring  2*1=2 2*2=4 2*4=8 ...... */
+        li:nth-child(2n){
+            background: darkgoldenrod;
+            color: darkblue;
+        }
+         /* odd number coloring   2*0+1=1 2*1+2=3 2*2+1=5...... */
+         li:nth-child(2n+1){
+            background: rgb(184, 37, 11);
+            color: rgb(227, 227, 240);
+        }
+        h3::before{
+            content: 'Hey Baby! ';
+        }
+        h3::after{
+            content: '. Bye Bye ';
+        }
+    </style>
+</head>
+<body>
+    <h1>Boro Mama</h1>
+    <h1>Boro Kaka</h1>
+    <span>Ami</span>
+    <span>Soto Vai</span>
+    <span>Soto Apu</span>
+    <a href="www.google.com">A</a>
+    <a href="www.google.com">B</a>
+    <a href="www.google.com">C</a>
+    <a href="www.google.com">D</a>
+    <div>
+        <h2>Room-1</h2>
+        <p>Staying Some One</p>
+    </div>
+    <div>
+        <h2>Room-2</h2>
+        <p>Staying Some One</p>
+    </div>
+    <div>
+        <h2>Room-3</h2>
+        <p>Staying Some One</p>
+    </div>
+    <br>
+    <ul>
+        <li>Aliya</li>
+        <li>Daliya</li>
+        <li>Aliya</li>
+        <li>Daliya</li>
+        <li>Kaliya</li>
+        <li>Maliya</li>
+        <li>Chaliya</li>
+        <li>Kaliya</li>
+        <li>Maliya</li>
+        <li>Aliya</li>
+        <li>Daliya</li>
+        <li>Kaliya</li>
+        <li>Maliya</li>
+        <li>Chaliya</li>
+        <li>Chaliya</li>
+    </ul>
+    <h3>Middle size header -1</h3>
+    <h3>Middle size header -2</h3>
+    <h3>Middle size header -3</h3>
+    <h3>Middle size header -4</h3>
+    <h3>Middle size header -5</h3>
+</body>
+</html>
